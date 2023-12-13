@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.open{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+header{
+    position: relative;
+    height: 100vh;
+    width: 10rem;
+    transition:  2.44s;
+}
+
+.navlink{
+    transition: 2.44s;
+    position: absolute;
+    animation-fill-mode: forwards;
+    left: -16rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(53, 66, 33,.7);
+}
+
+.close{
+    left: 16rem;  
+}
+
+.navlink > a{ 
+    text-decoration: none;
+    list-style: none;
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: yellow;
+}
